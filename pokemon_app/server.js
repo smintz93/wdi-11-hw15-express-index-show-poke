@@ -12,6 +12,11 @@ const pokemon = require("./models/pokemon.js")
 // 	res.send(pokemon)
 // })
 
+
+app.use(express.static("public"))
+
+
+
 // INDEX ROUTE 
 
 app.get("/pokemon", (req, res) => {
