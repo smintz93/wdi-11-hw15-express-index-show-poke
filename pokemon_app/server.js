@@ -21,7 +21,6 @@ app.get("/pokemon", (req, res) => {
 	})
 })
 
-
 // SHOW ROUTE 
 
 app.get("/pokemon/:id", (req, res) => {
