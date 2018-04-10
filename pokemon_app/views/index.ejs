@@ -5,7 +5,24 @@
 </head>
 <body>
 
-	<h1>Index Page</h1>
+	<h1>See All The Pokemon!</h1>
+
+
+
+	<ul>
+		<% for(let i = 0; i < pokemonList.length; i++) {%>	
+
+		<li>
+			
+		<a href="/pokemon/<%=i%>"><%=pokemonList[i].name%></a>	
+
+
+		</li>
+
+
+
+	<%}%>	
+	</ul>
 
 </body>
 </html>
