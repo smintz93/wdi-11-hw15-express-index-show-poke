@@ -1,6 +1,6 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# wdi-10-chi
+# wdi-11-chi _curious-turtles_
 
 ![Kira and Myles in the 60s](https://i.pinimg.com/736x/1a/2b/b7/1a2bb7a785522eed1a6d597174fc3bfb--star-trek-images-starship-enterprise.jpg)
 
@@ -63,9 +63,9 @@ User Stories
 
 **In terminal:**
 - Make sure that you are on the same directory level as your `package.json` (why?)
-- `npm install express ejs`
+- `npm install express ejs` (installing multiple packages at once)
 - check your `package.json`
-- <details><summary>package.json screenshot</summary>
+- <details><summary>package.json screenshot (note that package version numbers may be different)</summary>
 
   ![package.json image](https://i.imgur.com/JiEa7M2.png)
 
@@ -82,15 +82,15 @@ User Stories
 - in `server.js` set up your server
  - require express
  - set `express()` to a variable
- - set a variable of `port` to `3000`
+ - set a variable of `PORT` to `3000`
  - set your app to listen to the port and include a console log, so that you can tell when your server is running
  - include a get route `/` that will `res.send('Welcome to the Pokemon App!');`
 So that when you got to `localhost:3000`, you will see `Welcome to the Pokemon App!`
 - **In terminal**
-  - `nodemon` or `nodemon server.js` (if you set your up your `package.json` to start `server.js` you do't need to put it after `nodemon` )
-    -**GOTCHA!** : nodemon will only work if you run it from the same location as your `package.json`
+  - `nodemon` or `nodemon server.js` (if you set your up your `package.json` to start `server.js` you don't need to put it after `nodemon`)
+  - **GOTCHA!** : nodemon will only work if you run it from the same location as your `package.json`
 - **In the browser**
- - got to `localhost:3000`
+ - go to `localhost:3000`
  - check that you have your `Welcome to the Pokemon App!` message displaying
 
 <hr>
@@ -132,18 +132,14 @@ const pokemon = [ {name: "Bulbasaur", img: "http://img.pokemondb.net/artwork/bul
   - Add an `<h1>` that describes this page, i.e. 'See All The Pokemon!'
   - Add a `<style>` tag so you can write some CSS directly in your html file. [More info](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style) - In the Hungry for More section - you can work on properly linking a CSS file. 
   - Add a background-color and text color to the body, inside your `<style>` tag to be sure it is working as expected. Example:
-  
-  
-  
-```
- 
-  <style type="text/css">
+
+```html
+<style type="text/css">
 body {
   color: blanchedalmond;
   background-color: steelblue;
 }
 </style>
-
 ```
 
   
@@ -219,7 +215,7 @@ body {
 
  - Set up gulp to compile LESS (like in class) and have it spit out the CSS file to your static files area you just set up.
 
- - Pro tip: you might like to open third terminal tab where you keep gulp running (one for nodemon, one for gulp, and one for regular terminal stuff like making files and doing git)
+ - Pro tip: you might like to open third terminal tab where you keep gulp running (one for nodemon, one for gulp, and one for regular terminal stuff like making files and doing git adds/commits/pushes)
 
 <hr>
 &#x1F534; The commit message should read: <br>
@@ -252,13 +248,11 @@ body {
 
 
 
-<hr>
 ## You finished!  Nice work. Submit by making a pull request. 
-<hr>
 
 ## Hungry for more?
 
-1. Style your application with Bootstrap! Or really jazz up your app by adding some hand-rolled flourishes with css animations, jQuery and more!
+1. Style your application with Bootstrap! Or really jazz up your app by adding some hand-rolled flourishes with CSS animations, jQuery and more!
 
 2. Learn more about Pseudo Selectors to become a CSS Genius
     - [pseudo selector links](https://www.youtube.com/watch?v=YMZGPqNDn_s&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J&index=17) ~ 5 minutes
