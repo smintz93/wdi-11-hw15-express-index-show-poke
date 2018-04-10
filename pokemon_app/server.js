@@ -22,9 +22,15 @@ app.get("/pokemon", (req, res) => {
 })
 
 
+// SHOW ROUTE 
 
+app.get("/pokemon/:id", (req, res) => {
+	
 
-
+	res.render("show.ejs", {
+		pokemon: pokemon[req.params.id]
+	})
+})
 
 
 
@@ -39,5 +45,7 @@ app.get("/pokemon", (req, res) => {
 app.listen(3000, () => {
 	console.log('Server is listenning on Port 3000');
 })
+
+
 
 
