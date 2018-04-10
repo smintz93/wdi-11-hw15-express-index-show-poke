@@ -252,7 +252,7 @@ body {
 
 ## Hungry for more?
 
-1. Style your application with Bootstrap! Or really jazz up your app by adding some hand-rolled flourishes with CSS animations, jQuery and more!
+1. Style your application with flexbox, or if you really need a good rabbit hole--check out [Bootstrap!](https://getbootstrap.com/docs/4.1/getting-started/introduction/), a CSS library created by Twitter to make using the [960px grid system](https://960.gs/demo.html) a little easier. Or there's a substantially more lightweight 960px-grid-system-based answer to Bootstrap called [Skeleton](http://getskeleton.com/). You could also jazz up your app by adding some hand-rolled flourishes with CSS animations, and/or some sweet jQuery and/or ....??? u pick???.....!
 
 2. Learn more about Pseudo Selectors to become a CSS Genius
     - [pseudo selector links](https://www.youtube.com/watch?v=YMZGPqNDn_s&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J&index=17) ~ 5 minutes
